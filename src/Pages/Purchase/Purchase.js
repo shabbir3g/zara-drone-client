@@ -26,7 +26,7 @@ const Purchase = () => {
         data.status = "Pending";
         console.log(data);
 
-      axios.post('http://localhost:5000/purchase', data)
+      axios.post('https://whispering-lake-79289.herokuapp.com/purchase', data)
         .then(res => {
             if(res.data.insertedId){
                 alert('Purchased Drone Successfully');
@@ -39,7 +39,7 @@ const Purchase = () => {
 
 
     useEffect(() => {
-        const url = `http://localhost:5000/products/${id}`
+        const url = `https://whispering-lake-79289.herokuapp.com/products/${id}`
             fetch(url)
             .then(res => res.json())
             .then(data => setProduct(data))

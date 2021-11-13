@@ -19,7 +19,7 @@ const UserReview = () => {
         data.email = user.email;
         data.photo = user.photoURL;
 
-        axios.post('http://localhost:5000/review', data)
+        axios.post('https://whispering-lake-79289.herokuapp.com/review', data)
         .then(res => {
             if(res.data.insertedId){
                 setSuccess(true);

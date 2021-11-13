@@ -1,4 +1,4 @@
-import { getAuth, createUserWithEmailAndPassword, signOut, onAuthStateChanged, signInWithEmailAndPassword, GoogleAuthProvider, signInWithPopup, updateProfile } from "firebase/auth";
+import { getAuth, createUserWithEmailAndPassword, signOut, onAuthStateChanged, signInWithEmailAndPassword, GoogleAuthProvider, signInWithPopup, updateProfile, getIdToken } from "firebase/auth";
 import { useEffect, useState } from 'react';
 import initialAuthentication from "../Pages/Authentication/Firebase/Firebase.init";
 
@@ -11,7 +11,7 @@ const useFirebase = () => {
     const [isLoading, setIsLoading] = useState(true);
     const [authError, setAuthError] = useState('');
     const [admin, setAdmin] = useState(false);
-    //const [token, setToken] = useState('');
+    const [token, setToken] = useState('');
     const auth = getAuth();
     
     const googleProvider = new GoogleAuthProvider();
@@ -80,10 +80,10 @@ const useFirebase = () => {
         const unsubscribe = onAuthStateChanged(auth, (user) => {
             if (user) {
                 setUser(user);
-               /*  getIdToken(user)
+               getIdToken(user)
                 .then( idToken => {
                     setToken(idToken)
-                }) */
+                })
             } else {
                 setUser({})
             }
@@ -93,7 +93,7 @@ const useFirebase = () => {
     }, [auth])
 
     useEffect(() => {
-        fetch(`http://localhost:5000/users/${user.email}`)
+        fetch(`https://whispering-lake-79289.herokuapp.com/users/${user.email}`)
         .then(res=> res.json())
         .then(data => setAdmin(data.admin))
 
@@ -109,7 +109,7 @@ const useFirebase = () => {
 
     const saveUser = (email, displayName, method) => {
         const user = {email, displayName};
-        fetch('http://localhost:5000/users', {
+        fetch('https://whispering-lake-79289.herokuapp.com/users', {
             method: method,
             headers: {
                 'content-type': 'application/json'
@@ -128,6 +128,7 @@ const useFirebase = () => {
         signInWithGoogle,
         authError,
         setAuthError,
+        token,
         LogOut
     }
 

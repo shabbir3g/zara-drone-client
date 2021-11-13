@@ -15,11 +15,11 @@ const MyOrders = () => {
     
 
     useEffect(() => {
-        fetch(`http://localhost:5000/my-orders/${email}`)
+        fetch(`https://whispering-lake-79289.herokuapp.com/my-orders/${email}`)
         .then((res) => res.json())
         .then((data) => setOrders(data) )
 
-    }, []);
+    }, [email]);
 
     
     if(isLoading){
@@ -34,7 +34,7 @@ const MyOrders = () => {
     const handleDeleteUser = id =>{
         const proceed = window.confirm('Are you sure, You want to delete');
         if(proceed){
-            const url = `http://localhost:5000/my-orders/${id}`;
+            const url = `https://whispering-lake-79289.herokuapp.com/my-orders/${id}`;
             fetch(url, {
                 method: 'DELETE'
             

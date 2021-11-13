@@ -7,7 +7,7 @@ const AddProduct = () => {
     const [success, setSuccess] = useState(false);
     const { register, handleSubmit, reset , formState: { errors } } = useForm();
     const onSubmit = data => {
-        axios.post('http://localhost:5000/products', data)
+        axios.post('https://whispering-lake-79289.herokuapp.com/products', data)
         .then(res => {
             if(res.data.insertedId){
                 setSuccess(true);

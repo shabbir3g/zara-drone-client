@@ -13,7 +13,7 @@ const Reviews = () => {
     const [reviews, setReviews] = useState([]);
 
     useEffect(() => {
-        const url = `http://localhost:5000/review`;
+        const url = `https://whispering-lake-79289.herokuapp.com/review`;
         fetch(url)
         .then(res=> res.json())
         .then(data =>setReviews(data) )

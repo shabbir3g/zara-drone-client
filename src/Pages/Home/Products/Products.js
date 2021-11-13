@@ -7,7 +7,7 @@ const Products = (props) => {
     const [products, setProducts] = useState([]);
     
     useEffect(() => {
-        const url = `http://localhost:5000/products`;
+        const url = `https://whispering-lake-79289.herokuapp.com/products`;
         fetch(url)
         .then(res=> res.json())
         .then(data =>setProducts(data) )
