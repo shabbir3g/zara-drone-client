@@ -23,6 +23,7 @@ const TopHeader = (props) => {
     return (
         <div>
               {user.email ?
+
         <div className="st-top-header">
             <div className="container-fluid">
           

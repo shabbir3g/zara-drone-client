@@ -6,11 +6,11 @@ import useAuth from '../../../hooks/useAuth';
 
 
 const AdminRoute = ({ children, ...rest }) => {
-    const {user, admin,  isLoading } = useAuth();
-    if(isLoading){
+    const {user, admin} = useAuth();
+    if(!admin){
         return  <div>
                
-                <div className="text-center"> 
+                <div className="text-center my-5"> 
                 <Spinner animation="border" variant="danger" />
                 </div>
             </div>

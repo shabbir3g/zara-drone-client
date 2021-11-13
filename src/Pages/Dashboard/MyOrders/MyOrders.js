@@ -9,17 +9,16 @@ const Trash = <FontAwesomeIcon icon={faTrash} />;
 const MyOrders = () => {
 
     const {user, isLoading} = useAuth();
-    const email = user?.email;
-    const [orders, setOrders] = useState();
+    const [orders, setOrders] = useState([]);
 
     
 
     useEffect(() => {
-        fetch(`https://whispering-lake-79289.herokuapp.com/my-orders/${email}`)
+        fetch(`https://whispering-lake-79289.herokuapp.com/my-orders/${user?.email}`)
         .then((res) => res.json())
         .then((data) => setOrders(data) )
 
-    }, [email]);
+    }, [user?.email]);
 
     
     if(isLoading){

@@ -18,8 +18,8 @@ const Banner = () => {
                             <Carousel.Caption className="text-start">
                             <Row className="align-items-center home-slide"> 
                                 <Col xs={12} lg="6">
-                                <h1>Zara Resort</h1>
-                                <p>An ode to luxury of unforgettable memories. Zara Resort revives its famed legacy of comfort, elegance and impeccable service.</p>
+                                <h1>Zara Drone</h1>
+                                <p>An ode to luxury of unforgettable memories. Zara Drone revives its famed legacy of comfort, elegance and impeccable service.</p>
                                 <Link to="/explore"><Button className="zara-btn" variant="primary"  >Explore</Button></Link>
                                 </Col>
                                 <Col xs={12} lg="6">
@@ -33,8 +33,8 @@ const Banner = () => {
                         <Carousel.Caption className="text-start">
                             <Row className="align-items-center home-slide"> 
                                 <Col xs={12} lg="6">
-                                <h1>Zara Resort</h1>
-                                <p>An ode to luxury of unforgettable memories. Zara Resort revives its famed legacy of comfort, elegance and impeccable service.</p>
+                                <h1>Zara Drone</h1>
+                                <p>An ode to luxury of unforgettable memories. Zara Drone revives its famed legacy of comfort, elegance and impeccable service.</p>
                                 <Link to="/explore"><Button className="zara-btn" variant="primary" >Explore</Button></Link>
                                 </Col>
                                 <Col xs={12} lg="6">
@@ -48,8 +48,8 @@ const Banner = () => {
                         <Carousel.Caption className="text-start">
                             <Row className="align-items-center home-slide"> 
                                 <Col xs={12} lg="6">
-                                <h1>Zara Resort</h1>
-                                <p>An ode to luxury of unforgettable memories. Zara Resort revives its famed legacy of comfort, elegance and impeccable service.</p>
+                                <h1>Zara Drone</h1>
+                                <p>An ode to luxury of unforgettable memories. Zara Drone revives its famed legacy of comfort, elegance and impeccable service.</p>
                                 <Link to="/explore"><Button className="zara-btn" variant="primary" >Explore</Button></Link>
                                 </Col>
                                 <Col xs={12} lg="6">
@@ -63,8 +63,8 @@ const Banner = () => {
                         <Carousel.Caption className="text-start">
                             <Row className="align-items-center home-slide"> 
                                 <Col xs={12} lg="6">
-                                <h1>Zara Resort</h1>
-                                <p>An ode to luxury of unforgettable memories. Zara Resort revives its famed legacy of comfort, elegance and impeccable service.</p>
+                                <h1>Zara Drone</h1>
+                                <p>An ode to luxury of unforgettable memories. Zara Drone revives its famed legacy of comfort, elegance and impeccable service.</p>
                                 <Link to="/explore"><Button className="zara-btn" variant="primary" >Explore</Button></Link>
                                 </Col>
                                 <Col xs={12} lg="6">
@@ -78,8 +78,8 @@ const Banner = () => {
                         <Carousel.Caption className="text-start">
                             <Row className="align-items-center home-slide"> 
                                 <Col xs={12} lg="6">
-                                <h1>Zara Resort</h1>
-                                <p>An ode to luxury of unforgettable memories. Zara Resort revives its famed legacy of comfort, elegance and impeccable service.</p>
+                                <h1>Zara Drone</h1>
+                                <p>An ode to luxury of unforgettable memories. Zara Drone revives its famed legacy of comfort, elegance and impeccable service.</p>
                                 <Link to="/explore"><Button className="zara-btn" variant="primary">explore</Button></Link>
                                 </Col>
                                 <Col xs={12} lg="6">

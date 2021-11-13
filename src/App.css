@@ -100,13 +100,26 @@ h1.title-main {
 }
 .st-top-header {
   overflow: hidden;
-
   padding: 0;
   background: #1d2327;
   min-height: 35px;
   display: flex;
   align-items: center;
 }
+
+.st-top-header-admin {
+  overflow: hidden;
+  padding: 0;
+  background: #1d2327;
+  min-height: 35px;
+  display: flex;
+  align-items: center;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+}
+
 .header-area {
   position: absolute;
   top: 0;
@@ -173,15 +186,15 @@ h1.title-main {
 .overflow_hidden {
   overflow: hidden;
 }
-.room-thumb-grid-1 .upper-place-bottom-left {
+.drone-thumb-grid-1 .upper-place-bottom-left {
   bottom: 15px;
   left: 20px;
 }
-[class*="room-thumb-grid-"] .upper-place-bottom-right {
+[class*="drone-thumb-grid-"] .upper-place-bottom-right {
   bottom: 20px;
   right: 20px;
 }
-[class*="room-thumb-"] .room-size {
+[class*="drone-thumb-"] .drone-size {
   padding: 9px 15px;
   font-weight: 500;
 }
@@ -194,14 +207,14 @@ h1.title-main {
   transition-duration: 0.5s;
 }
 .overlay-white,
-.room-thumb-grid-1 .facility-icon li,
-[class*="room-thumb-grid-"] .upper-place-bottom-right {
+.drone-thumb-grid-1 .facility-icon li,
+[class*="drone-thumb-grid-"] .upper-place-bottom-right {
   background: rgba(255, 255, 255, 0.8);
 }
 .down-line-left {
   padding-bottom: 15px;
 }
-.room-thumb-grid-1 .per-night {
+.drone-thumb-grid-1 .per-night {
   margin-bottom: 0;
   float: left;
   margin-top: 10px;
@@ -231,10 +244,10 @@ h1.title-main {
 .float-right {
   float: right !important;
 }
-[class*="room-thumb-grid-"] .room-info {
+[class*="drone-thumb-grid-"] .drone-info {
   width: 100%;
 }
-[class*="room-thumb-"] .room-info {
+[class*="drone-thumb-"] .drone-info {
   display: inline-block;
 }
 .hover_zoom:hover img {
@@ -247,7 +260,15 @@ h1.title-main {
 .text-secondery {
   color: #0a3d62 !important;
   font-weight: bold;
-  font-size: 25px;
+  font-size: 23px;
+}
+.drone-info h5.title {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  display: -webkit-box;
+  -webkit-line-clamp: 5;
+  -webkit-box-orient: vertical;
 }
 
 /* testimonial style  */
@@ -356,7 +377,8 @@ h1.title-main {
 /* subscribe style  */
 
 .subscribe {
-  background-image: url("./images/1.jpg");
+  background-image: url("./images/2.jpg");
+  background-size: cover;
 }
 .subscribe .overlay {
   background: rgba(0, 0, 0, 0.7);
