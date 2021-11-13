@@ -48,7 +48,6 @@ function App() {
             <LoginRoute path="/register">
               <Register />
             </LoginRoute>
-          
             <Route path="*">
               <NotFound />
             </Route>

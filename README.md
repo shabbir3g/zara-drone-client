@@ -1,4 +1,4 @@
-# Zara Drone | Welcome to Drone Technology
+# Zara Drone client side
 
 [Zara Drone](https://zara-drone.web.app/).
 
@@ -11,7 +11,8 @@ We have glorious past, Zara Drone Provide to our valuable customer best quality 
 ## About Zara Drone Application
 
 - I have used React js for client side and also I used Node express for Server side. I have been also used MongoDB for database.
+- I used Admin and normal user role to make manage Admin Dashboard and normal user Dashboard.
 - I used Firebase Hosting and Authentication system to create this Application
 - I have added private route system, without Authentication you can't access private route
-- I used Also here Bootstrap and added react Router
-- You can Sign Up in this Application manually and using Google authentication.
+- I used Also here Bootstrap and some custom CSS to make design and added react Router
+- You can Sign Up in this Application manually and using Google authentication system.

@@ -16,7 +16,7 @@ const Products = (props) => {
 
     return (
             <Container>
-                <div className="my-5 text-center w-50 mx-auto">
+                <div className="my-5 text-center section-title mx-auto">
                     <h2>Our Products</h2>
                     <p>Zara Drone Provide to customer always best quality drone in budget price. You can get using this any Chinamatic 4k or 5k video what actually you want</p>
                 </div>

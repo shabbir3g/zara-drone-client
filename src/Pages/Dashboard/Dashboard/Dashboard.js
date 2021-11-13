@@ -37,7 +37,7 @@ const Dashboard = () => {
             <TopHeader page={"dahaboard"}></TopHeader>
             <div className="container-fluid"> 
                 <div className="row"> 
-                    <div style={{height: '100vh'}} className="dashboard-sidebar col-md-2 bg-dark text-light">
+                    <div className="dashboard-sidebar col-md-2 bg-dark text-light">
                         <nav className="dashboard-menu"> 
                             <ul>
                                 <li><Link to={`${url}`}>{TachometerAlt} <span>Dashboard</span></Link></li>

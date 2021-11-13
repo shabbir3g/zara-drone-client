@@ -12,6 +12,8 @@ const Reviews = () => {
 
     const [reviews, setReviews] = useState([]);
 
+ 
+
     useEffect(() => {
         const url = `https://whispering-lake-79289.herokuapp.com/review`;
         fetch(url)
@@ -22,7 +24,7 @@ const Reviews = () => {
     return (
         <div>
              <Container>
-             <div className="my-5 text-center w-50 mx-auto">
+                <div className="my-5 text-center section-title mx-auto">
                     <h2>Customer Reviews</h2>
                     <p>This Review's from our valuable Customer, those who get drone from zara drone. We every time provide best quality services to our cusotmer.</p>
                 </div>

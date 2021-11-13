@@ -36,7 +36,7 @@ const MakeAdmin = () => {
     return (
         <div>
              <h2 className="text-center my-5">Make Admin</h2>
-            <form className="w-50 mx-auto my-5" onSubmit={handleAdminSubmit}> 
+            <form className="section-title mx-auto my-5" onSubmit={handleAdminSubmit}> 
 
             <InputGroup className="mb-5">
                 <FormControl
