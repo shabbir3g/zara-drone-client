@@ -34,7 +34,7 @@ const ManageAllOrders = () => {
         .then(res => res.json())
         .then(data => {
             if(data.modifiedCount > 0){
-                alert('Status Approved successfully');
+                alert('Product Shipped successfully');
             }
         })
 

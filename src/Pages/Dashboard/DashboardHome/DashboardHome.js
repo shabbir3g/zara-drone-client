@@ -56,49 +56,49 @@ const DashboardHome = () => {
         <div>
              <h2 className="text-center my-5">Welcome to Dashboard</h2>
 
-             <div class="row">
-    <div class="col-lg-3 col-md-6">
-        <div class="panel panel-primary">
-            <div class="panel-heading">
-                <div class="row">
-                    <div class="col-md-3">
+             <div className="row">
+    <div className="col-lg-3 col-md-6">
+        <div className="panel panel-primary">
+            <div className="panel-heading">
+                <div className="row">
+                    <div className="col-md-3">
                         {User}
                     </div>
-                    <div class="col-md-9 text-right">
-                  <div class='huge'>{allUser?.length}</div>
-                        <div class="under-number">All Users</div>
+                    <div className="col-md-9 text-right">
+                  <div className='huge'>{allUser?.length}</div>
+                        <div className="under-number">All Users</div>
                     </div>
                 </div>
             </div>
             <Link to="/">
-                <div class="panel-footer">
-                    <span class="pull-left blue">View Details</span>
-                    <span class="pull-right blue">{ArrowAltCircleRight}</span>
-                    <div class="clearfix"></div>
+                <div className="panel-footer">
+                    <span className="pull-left blue">View Details</span>
+                    <span className="pull-right blue">{ArrowAltCircleRight}</span>
+                    <div className="clearfix"></div>
                 </div>
             </Link>
         </div>
     </div>
 
     
-    <div class="col-lg-3 col-md-6">
-        <div class="panel panel-green">
-            <div class="panel-heading">
-                <div class="row">
-                    <div class="col-md-3">
+    <div className="col-lg-3 col-md-6">
+        <div className="panel panel-green">
+            <div className="panel-heading">
+                <div className="row">
+                    <div className="col-md-3">
                         {ShoppingBag}
                     </div>
-                    <div class="col-md-9 text-right">
-                     <div class='huge'>{products?.length}</div>
-                      <div class="under-number">Products</div>
+                    <div className="col-md-9 text-right">
+                     <div className='huge'>{products?.length}</div>
+                      <div className="under-number">Products</div>
                     </div>
                 </div>
             </div>
             <Link to="/">
-                <div class="panel-footer">
-                    <span class="pull-left green">View Details</span>
-                    <span class="pull-right green">{ArrowAltCircleRight}</span>
-                    <div class="clearfix"></div>
+                <div className="panel-footer">
+                    <span className="pull-left green">View Details</span>
+                    <span className="pull-right green">{ArrowAltCircleRight}</span>
+                    <div className="clearfix"></div>
                 </div>
             </Link>
         </div>    
@@ -106,24 +106,24 @@ const DashboardHome = () => {
 
 
 
-    <div class="col-lg-3 col-md-6">
-        <div class="panel panel-yellow">
-            <div class="panel-heading">
-                <div class="row">
-                    <div class="col-md-3">
+    <div className="col-lg-3 col-md-6">
+        <div className="panel panel-yellow">
+            <div className="panel-heading">
+                <div className="row">
+                    <div className="col-md-3">
                         {Clipboard}
                     </div>
-                    <div class="col-md-9 text-right">
-                    <div class='huge'>{reviews?.length}</div>
-                        <div class="under-number">Review</div>
+                    <div className="col-md-9 text-right">
+                    <div className='huge'>{reviews?.length}</div>
+                        <div className="under-number">Review</div>
                     </div>
                 </div>
             </div>
             <Link to="/">
-                <div class="panel-footer">
-                    <span class="pull-left yellow">View Details</span>
-                    <span class="pull-right yellow">{ArrowAltCircleRight}</span>
-                    <div class="clearfix"></div>
+                <div className="panel-footer">
+                    <span className="pull-left yellow">View Details</span>
+                    <span className="pull-right yellow">{ArrowAltCircleRight}</span>
+                    <div className="clearfix"></div>
                 </div>
             </Link>
         </div>
@@ -131,24 +131,24 @@ const DashboardHome = () => {
 
 
 
-    <div class="col-lg-3 col-md-6">
-        <div class="panel panel-red">
-            <div class="panel-heading">
-                <div class="row">
-                    <div class="col-md-3">
+    <div className="col-lg-3 col-md-6">
+        <div className="panel panel-red">
+            <div className="panel-heading">
+                <div className="row">
+                    <div className="col-md-3">
                         {Tasks}
                     </div>
-                    <div class="col-md-9 text-right">
-                        <div class='huge'>{orders?.length}</div>
-                         <div class="under-number">All Order</div>
+                    <div className="col-md-9 text-right">
+                        <div className='huge'>{orders?.length}</div>
+                         <div className="under-number">All Order</div>
                     </div>
                 </div>
             </div>
             <Link to="/">
-                <div class="panel-footer">
-                    <span class="pull-left red">View Details</span>
-                    <span class="pull-right red">{ArrowAltCircleRight}</span>
-                    <div class="clearfix"></div>
+                <div className="panel-footer">
+                    <span className="pull-left red">View Details</span>
+                    <span className="pull-right red">{ArrowAltCircleRight}</span>
+                    <div className="clearfix"></div>
                 </div>
             </Link>
         </div>
