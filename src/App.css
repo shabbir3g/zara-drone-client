@@ -50,7 +50,7 @@ h1.title-main {
 }
 /* header style  */
 .header-logo {
-  width: 320px;
+  width: 255px;
 }
 
 .st-top-header-list svg {
@@ -465,11 +465,9 @@ footer .zara-drone-footer .footer-insta a {
   position: relative;
   overflow: hidden;
   width: 25%;
-  padding-bottom: 25%;
   margin: 0 15px 15px 0;
 }
 footer .zara-drone-footer .footer-insta a img {
-  position: absolute;
   border-radius: 5px;
   top: 0;
   left: 0;
@@ -482,7 +480,19 @@ footer .zara-drone-footer .footer-insta a img {
   -webkit-transition: 0.4s ease-in-out;
   transition: 0.4s ease-in-out;
 }
-
+.footer-insta .overlay {
+  background: rgba(0, 0, 0, 0.4);
+  width: 100%;
+  height: 100%;
+  display: block;
+  position: absolute;
+  border-radius: 5px;
+  opacity: 0;
+  transition-duration: 0.5s;
+}
+footer .zara-drone-footer .footer-insta a:hover .overlay {
+  opacity: 1;
+}
 footer .zara-drone-footer h4 {
   position: relative;
   margin-bottom: 40px;
@@ -498,15 +508,15 @@ footer .zara-drone-footer .zara-drone-footer-menu li {
   list-style: none;
 }
 footer .zara-drone-footer .zara-drone-footer-menu li a {
-  color: #ecfafb;
+  color: #c7c7c8;
   -webkit-transition: 0.2s ease-in-out;
   transition: 0.2s ease-in-out;
 }
-footer .knsl-copyright {
+footer .zara-dron-copyright {
   font-size: 15px;
   background-color: #1d2327;
   padding: 20px 0;
-  color: #8588a2;
+  color: #c7c7c8;
 }
 footer .knsl-copyright {
   font-size: 15px;
@@ -532,7 +542,35 @@ footer .knsl-copyright .container a {
 footer .zara-drone-footer .zara-drone-footer-about {
   display: block;
   width: 80%;
-  color: #8588a2;
+  color: #c7c7c8;
+}
+ul.zara-drone-footer-social {
+  margin-top: 20px;
+  padding: 0;
+  list-style: none;
+}
+ul.zara-drone-footer-social li {
+  display: inline-block;
+}
+ul.zara-drone-footer-social li a {
+  display: block;
+  color: #fff;
+  width: 40px;
+  height: 40px;
+  margin-right: 8px;
+  text-align: center;
+  padding: 7px;
+  border-radius: 50%;
+  border: 2px solid #8588a2;
+  transition-duration: 0.5s;
+}
+ul.zara-drone-footer-social li a:hover {
+  background-color: #fff;
+  color: #000;
+  border: 2px solid #fff;
+}
+ul.zara-drone-footer-social li a svg {
+  font-size: 20px;
 }
 /* Login Register style  */
 .login-form {
@@ -598,4 +636,13 @@ textarea {
   -ms-transition: border-color 0.3s ease-in-out;
   -o-transition: border-color 0.3s ease-in-out;
   transition: border-color 0.3s ease-in-out;
+}
+
+/* review style  */
+
+.testimonial .description {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
 }

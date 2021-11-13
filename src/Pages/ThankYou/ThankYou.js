@@ -5,11 +5,11 @@ import Footer from '../Shared/Footer/Footer';
 
 const ThankYou = () => {
     return (
-        <div className="normal-page">
+        <div className="normal-page mt-5">
             <Navigation></Navigation>
-            <div style={{height: '60vh'}} className="login-form margin-top-200 mx-auto"> 
+            <div className=" mx-auto"> 
                 <div className="text-center"> 
-                    <img className="img-fluid" src={thanks} alt="" />
+                    <img className="img-fluid mt-5" src={thanks} alt="" />
                 </div>
             </div>
             <Footer></Footer>

@@ -18,7 +18,7 @@ const Products = (props) => {
             <Container>
                 <div className="my-5 text-center w-50 mx-auto">
                     <h2>Our Products</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus nostrum mollitia ex laboriosam, magni voluptatibus delectus quasi veniam alias corrupti.</p>
+                    <p>Zara Drone Provide to customer always best quality drone in budget price. You can get using this any Chinamatic 4k or 5k video what actually you want</p>
                 </div>
                 {products.length === 0 ? <Spinner animation="border" role="status">
                 <span className="visually-hidden">Loading...</span>

@@ -19,7 +19,7 @@ const Banner = () => {
                             <Row className="align-items-center home-slide"> 
                                 <Col xs={12} lg="6">
                                 <h1>Zara Drone</h1>
-                                <p>An ode to luxury of unforgettable memories. Zara Drone revives its famed legacy of comfort, elegance and impeccable service.</p>
+                                <p>Zara Drone Provide to customer always best quality drone in budget price. You can get using this any Chinamatic 4k or 5k video what actually you want</p>
                                 <Link to="/explore"><Button className="zara-btn" variant="primary"  >Explore</Button></Link>
                                 </Col>
                                 <Col xs={12} lg="6">
@@ -34,7 +34,7 @@ const Banner = () => {
                             <Row className="align-items-center home-slide"> 
                                 <Col xs={12} lg="6">
                                 <h1>Zara Drone</h1>
-                                <p>An ode to luxury of unforgettable memories. Zara Drone revives its famed legacy of comfort, elegance and impeccable service.</p>
+                                <p>Zara Drone Provide to customer always best quality drone in budget price. You can get using this any Chinamatic 4k or 5k video what actually you want</p>
                                 <Link to="/explore"><Button className="zara-btn" variant="primary" >Explore</Button></Link>
                                 </Col>
                                 <Col xs={12} lg="6">
@@ -49,7 +49,7 @@ const Banner = () => {
                             <Row className="align-items-center home-slide"> 
                                 <Col xs={12} lg="6">
                                 <h1>Zara Drone</h1>
-                                <p>An ode to luxury of unforgettable memories. Zara Drone revives its famed legacy of comfort, elegance and impeccable service.</p>
+                                <p>Zara Drone Provide to customer always best quality drone in budget price. You can get using this any Chinamatic 4k or 5k video what actually you want</p>
                                 <Link to="/explore"><Button className="zara-btn" variant="primary" >Explore</Button></Link>
                                 </Col>
                                 <Col xs={12} lg="6">
@@ -64,11 +64,11 @@ const Banner = () => {
                             <Row className="align-items-center home-slide"> 
                                 <Col xs={12} lg="6">
                                 <h1>Zara Drone</h1>
-                                <p>An ode to luxury of unforgettable memories. Zara Drone revives its famed legacy of comfort, elegance and impeccable service.</p>
+                                <p>Zara Drone Provide to customer always best quality drone in budget price. You can get using this any Chinamatic 4k or 5k video what actually you want</p>
                                 <Link to="/explore"><Button className="zara-btn" variant="primary" >Explore</Button></Link>
                                 </Col>
                                 <Col xs={12} lg="6">
-                               
+
                                 </Col>
                             </Row>
                         </Carousel.Caption>
@@ -79,7 +79,7 @@ const Banner = () => {
                             <Row className="align-items-center home-slide"> 
                                 <Col xs={12} lg="6">
                                 <h1>Zara Drone</h1>
-                                <p>An ode to luxury of unforgettable memories. Zara Drone revives its famed legacy of comfort, elegance and impeccable service.</p>
+                                <p>Zara Drone Provide to customer always best quality drone in budget price. You can get using this any Chinamatic 4k or 5k video what actually you want</p>
                                 <Link to="/explore"><Button className="zara-btn" variant="primary">explore</Button></Link>
                                 </Col>
                                 <Col xs={12} lg="6">

@@ -24,7 +24,7 @@ const Reviews = () => {
              <Container>
              <div className="my-5 text-center w-50 mx-auto">
                     <h2>Customer Reviews</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus nostrum mollitia ex laboriosam, magni voluptatibus delectus quasi veniam alias corrupti.</p>
+                    <p>This Review's from our valuable Customer, those who get drone from zara drone. We every time provide best quality services to our cusotmer.</p>
                 </div>
                 <div className="row">
                 <div className="col-md-12">
@@ -38,6 +38,7 @@ const Reviews = () => {
                     dots={false}
                     margin={10} 
                     nav={false}
+                    
                     className="owl-carousel">
 
                     {
