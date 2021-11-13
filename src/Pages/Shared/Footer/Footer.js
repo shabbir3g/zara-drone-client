@@ -27,7 +27,7 @@ const Footer = () => {
                 <div className="zara-drone-footer">
                     <div className="container zara-drone-p-60-60">
                     <div className="row">
-                        <div className="col-md-6 col-lg-4">
+                        <div className="col-md-4 col-lg-4">
                         <img className="zara-drone-footer-logo" src={logo} alt="Kinsley" />
                         <div className="zara-drone-footer-about">Zara Drone is a powerful flagship camera drone equipped with a 4/3 CMOS Hasselblad camera to facilitate professional-level imaging. It also offers omnidirectional obstacle sensing for a smooth flight experience</div>
                         <ul className="zara-drone-footer-social">
@@ -39,7 +39,7 @@ const Footer = () => {
                         </ul>
                         </div>
 
-                        <div className="col-md-6 col-lg-2">
+                        <div className="col-md-2 col-lg-2">
                         <h4>Our Company</h4>
                         <ul className="zara-drone-footer-menu">
                             <li><Link to="/">Home</Link></li>
@@ -49,7 +49,7 @@ const Footer = () => {
                             <li><Link to="/">Contact Us</Link></li>
                         </ul>
                         </div>
-                        <div className="col-md-6 col-lg-2">
+                        <div className="col-md-2 col-lg-2">
                         <h4>Zara Drone</h4>
                         <ul className="zara-drone-footer-menu">
                             <li><Link to="/">Privacy policy</Link></li>
@@ -61,7 +61,7 @@ const Footer = () => {
                         </div>
 
                         
-                        <div className="col-md-6 col-lg-4">
+                        <div className="col-md-4 col-lg-4">
                         <h4>Instagram</h4>
                         <div className="footer-insta">
 
