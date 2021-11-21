@@ -57,7 +57,7 @@ const DashboardHome = () => {
              <h2 className="text-center my-5">Welcome to Dashboard</h2>
 
              <div className="row">
-    <div className="col-lg-3 col-md-6">
+    <div className="col-lg-3 col-md-3">
         <div className="panel panel-primary">
             <div className="panel-heading">
                 <div className="row">
@@ -81,7 +81,7 @@ const DashboardHome = () => {
     </div>
 
     
-    <div className="col-lg-3 col-md-6">
+    <div className="col-lg-3 col-md-3">
         <div className="panel panel-green">
             <div className="panel-heading">
                 <div className="row">
@@ -106,7 +106,7 @@ const DashboardHome = () => {
 
 
 
-    <div className="col-lg-3 col-md-6">
+    <div className="col-lg-3 col-md-3">
         <div className="panel panel-yellow">
             <div className="panel-heading">
                 <div className="row">
@@ -131,7 +131,7 @@ const DashboardHome = () => {
 
 
 
-    <div className="col-lg-3 col-md-6">
+    <div className="col-lg-3 col-md-3">
         <div className="panel panel-red">
             <div className="panel-heading">
                 <div className="row">

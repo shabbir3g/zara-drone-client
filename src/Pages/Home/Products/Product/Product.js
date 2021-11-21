@@ -8,7 +8,7 @@ const Product = (props) => {
 
     return (
         <>
-        <div className="col-md-6 col-lg-4">
+        <div className="col-md-4 col-lg-4">
         <div className="drone-thumb-grid-1 hover_zoom bg-white mb-4 shadow">
             <div className="thumb-top  overflow_hidden">
                 <img src={image} alt="Zara Drone" />
